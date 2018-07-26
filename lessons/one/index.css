@@ -1,0 +1,47 @@
+@import url(main.css);
+
+.blockct {
+    display: inline;
+}
+.content {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+
+.content h2 {
+    color: purple;
+    align-items: center;
+    align-content: center;
+}
+
+p {
+    display: inline;
+}
+
+em {
+    display: block;
+}
+
+p.warming {
+    background-color: bisque;
+    color: brown;
+    font: medium;
+    font-family: serif;
+}
+
+span.warming {
+    background-color: aqua;
+    font: small;
+    font-style: italic;
+}
+
+h1 [class] {
+    color: silver;
+}
+
+a[href][title] {
+    font-weight: bold;
+    color: red;
+}
