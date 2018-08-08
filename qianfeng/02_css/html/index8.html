@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>元素类型</title>
+		 <!-- 元素的类型  -->
+		 <!-- 
+			1、块状元素 div dl dt ol ul fildset h1-h6 p form hr iframe 
+			2、行内元素(内联元素) a span i em strong b
+			3、可变元素 applet button del ifrae ins map object script
+		 -->
+		 <!-- display 更改元素类型 -->
+		 <!-- block 让行内元素产生块元素效果-->
+		 <!-- inline 让块元素产生行内元素效果 不支持宽 高-->
+		 <!-- inline-block 兼具行内元素和块元素效果 -->
+		 <!-- img 和 input 默认是inline-block -->
+		 <!-- display: none 元素不会被显示-->
+		<style type="text/css">
+			.box1 {width: 100px;height: 100px;background: #f00;}
+			.box2 {width: 200px;height: 200px;background: #0f0;}
+			a {font-weight: bold;}
+			span {width: 500px;height: 400px;background: fuchsia;display: block;margin-bottom: 40px;}
+			#box3 {width: 500px;height: 400px;background: deeppink;display: inline;}
+			#box4 {width: 400px;height: 400px;display: inline-block;background: #0000FF;}
+			img {width: 100px;height: 50px;}
+			#box5 {width:500px;height: 400px;background: #e6f1b0;display: none;}
+		</style>
+	</head>
+	<body>
+		<div class="box1">
+			
+		</div>
+		<div class="box2">
+			
+		</div>
+		深圳市四方体科技有限公司
+		<p>深圳市四方体科技有限公司</p>
+		<a href="index.html">首页</a>
+		<a href="index2.html">第二个页面</a>
+		<span>深圳市四方体科技有限公司</span>
+		<span>深圳市四方体科技有限公司</span>
+		<span>深圳市四方体科技有限公司</span>
+		<div id="box3">
+			哈哈哈
+		</div>
+		<div id="box4">
+			
+		</div>
+		<img src="../image/li.png" />
+		<img src="../image/li.png" />
+		<img src="../image/li.png" />
+		<input type="text" name="" id="" value="" />
+		<input type="text" name="" id="" value="" />
+		<input type="text" name="" id="" value="" />
+		<input type="text" name="" id="" value="" />
+		→<div id="box5">
+			
+		</div>→
+	</body>
+</html>

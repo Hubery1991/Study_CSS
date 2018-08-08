@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			 /*高度塌陷 解决方案 1 overflow: hidden; */
+			#box {width: 960px; border: 5px #000 solid;}
+			#box_l {width: 480px;height: 240px; background: #f00;float: left;}
+			#box_c,#box_r {width: 240px;height: 240px;float: left;}
+			#box_c {background: #228B22;}
+			#box_r {background: #fbfbfb url(../image/li.png) no-repeat right bottom;}
+			 /*高度塌陷 解决方案 2 overflow: hidden; 或 font-size: 0;  */
+			#clean {clear: both;height: 0;font-size: 0;}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div id="box_l">
+				
+			</div>
+			<div id="box_c">
+				
+			</div>
+			<div id="box_r">
+				
+			</div>
+			<div id="clean">
+				
+			</div>
+		</div>
+		
+	</body>
+</html>
