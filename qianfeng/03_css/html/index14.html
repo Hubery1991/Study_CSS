@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CSS3选择器</title>
+		<style type="text/css">
+			 /* 1、属性选择器
+				2、伪类选择器
+				3、层级选择器
+			 */
+			 img[alt] {border: #0000FF 2px solid;padding: 20px;}
+			 img[title="金毛"]{border: #000000 2px dashed; padding: 20px;}
+			 .box3 {width: 100px;height: 100px;background: #EF96C2;margin-bottom: 20px;}
+			 .box4 {width: 200px;height: 200px;background: #00FFFF;}
+			 div[class~='layout'] {margin: 0 auto;}
+			 div[class|='a'] {margin: 0 auto;} //以 a-啥开头 a需要是独立
+			 div[class^='haha'] {margin: 0 auto;} //以haha开头
+			 div[class$='xixi'] {margin: 0 auto;} //以xixi结尾
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<img src="../../02_css/image/li.png" alt="柴犬">
+			<img src="../../02_css/image/li.png" title="金毛">
+		</div>
+		<div id="box2">
+			<input type="text" name="" id="" value="" />
+			<input type="submit" name="" id="" value="确定" />
+		</div>
+		<div class="box3">
+			
+		</div>
+		<div class="box4 layout">
+			
+		</div>
+	</body>
+</html>

@@ -8,3 +8,12 @@ auto 或 number
 
 
 第二节 锚点链接
+
+
+五大浏览器内核
+
+Trident: IE Maxthon(遨游) Theword（世界之窗） 360浏览器
+Gecko: Mozilla FireFox
+Webkit: Safari chrome
+Presto: Opera
+Blink: Google和Opera Software开发的浏览器排版引擎 2013年4月发布

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>表单的高级属性</title>
+		<style type="text/css">
+			form {width: 600px;border: #0000FF 1px solid;}
+			fieldset {margin-bottom: 20px;padding: 10px;}
+			#fd1 {border: #000000 2px dashed;}
+			#ld1 {border: #000000 2px dashed;padding: 2px;}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<form name="f1" action="" method="post">
+				<fieldset id="fd1">
+					<legend id="ld1">用户登录</legend>
+					姓名<input type="text"/></br>
+					密码<input type="password" name="" /></br>
+				</fieldset>
+				<fieldset id="">
+					<legend>用户注册</legend>
+					 <!-- 将文字控件绑定在一起 -->
+					sex <input type="radio" name="sex" id="male" value=""/>Boy <input type="radio" name="sex" id="famal" value="" /><label for="famal">Girl</label></br>
+					爱好 <input type="checkbox" name="hobby" id="" value=""/>打球 <input type="checkbox" name="hobby" id="" value=""/>看电影<input type="checkbox" name="hobby" id="" value=""/>旅游<br/>	
+					<p>出生年月
+						<select>
+							<option value ="">1991</option>
+							<option value ="">1992</option>
+							<option value ="">1993</option>
+							<option value ="">1994</option>
+						</select>年
+						<select name="">
+							<option value="">5</option>
+							<option value="">6</option>
+							<option value="">7</option>
+							<option value="">8</option>
+						</select>月
+					</p>
+					<p>个人简介：
+						<textarea rows="4" cols="50">
+							
+						</textarea>
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
