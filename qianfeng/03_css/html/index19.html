@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>层级选择器</title>
+		<style type="text/css">
+			 /* 1、 E>F 子选择器 */
+			 .box1 span {background: #FF0000;}
+			 .box2>span {background: #00FFFF;}
+		</style>
+	</head>
+	<body>
+		<div class="box1">
+			<h1>嘻嘻嘻嘻</h1>
+			<span>哈哈哈哈</span>
+			<p>呵呵呵呵呵<span>呼呼呼呼</span>呵呵呵呵</p>
+		</div>
+		<div class="box2">
+			<h1>嘻嘻嘻嘻</h1>
+			<span>哈哈哈哈</span>
+			<p>呵呵呵呵呵<span>呼呼呼呼</span>呵呵呵呵</p>
+		</div>
+	</body>
+</html>
