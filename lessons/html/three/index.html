@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <script type="text/javascript" src="index.js"></script>
+        <style type="text/css">
+            #toolbar {
+                background: blue;
+                color: white;
+            }
+            #toolbar a {
+                color: inherit;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>继承 层叠</h1>
+        <div id="toolbar">
+            <a href="https://www.baidu.com">百度</a>|<a href="https://google.com">谷歌</a>|<a href="https://360.cn">360</a>
+        </div>
+        <h2 style="font-family: 'Times New Roman', Times, serif;font-weight: 100;">This is my family</h2>
+        <h2 style="font-family: 'Times New Roman', Times, serif;font-weight: 900;">This is my hometown</h2>
+        <i>这就是一个I标签</i>
+        <em>这是一个em标签</em>
+        <script>
+            var timeArray = [{x:'2018-7-20'},
+            {x:'2018-07-01'},
+            {x:'2018-07-28'},
+            {x:'2018-07-15'},
+            {x:'2018-07-06'}];
+            timeArray.sort(function(a,b){return b.x < a.x ? 1 : -1 ;});
+
+            console.log('原始'+JSON.stringify(timeArray));
+            var orderArray = getRightOrderArray(timeArray);
+            console.log('排序后'+JSON.stringify(orderArray));
+
+    
+        </script>
+    </body>
+</html>

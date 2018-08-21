@@ -1,0 +1,18 @@
+/* 选择子元素 */
+h1>strong {color: red;}
+
+/* 自身从table元素继承 且class包含有hubery 的td元素 的子元素中所有p元素 */
+table.hubery td > p {color: yellow;}
+
+/* 选择紧接着在一个h1元素后出现的所有段落 h1和p要共同的父元素 */
+h1 + p {margin-top: 0;}
+
+div > ol > li{color: pink;font: bold;} 
+ul:first-child {
+    color: maroon;
+}
+a:link {color: blue;}
+a:visited {color: red;text-decoration: line-throughf;font-style: italic;}
+a:hover{color: blueviolet;font-family: Arial;font-size: 30px;}
+
+input:focus {background: aquamarine;}
